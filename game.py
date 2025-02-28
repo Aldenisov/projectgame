@@ -2,7 +2,6 @@ import pygame
 import random
 import sqlite3
 
-# Инициализация Pygame и базы данных
 pygame.init()
 conn = sqlite3.connect('scores.db')
 cursor = conn.cursor()
